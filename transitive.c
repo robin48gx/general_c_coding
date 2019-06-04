@@ -60,6 +60,8 @@ int main () {
 	printf (" transitive_lt(5, -1,2,3,4,10) = %d\n",  transitive_lt(5, -1,2,3,4,10));
 	printf (" transitive_lt(5, -1,33,3,4,10) = %d\n",  transitive_lt(5, -1,2,3,4,10));
 	printf (" transitive_lt(6, -1,33,99,3,4,10) = %d\n",  transitive_lt(6, -1,33,99,3,4,10));
+	printf (" transitive_lt(2, -1,2) = %d\n",  transitive_lt(3, -1,2));
+	printf (" transitive_lt(1, -1) = %d\n",  transitive_lt(3, -1));
 
 
 	return 0;
