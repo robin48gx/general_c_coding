@@ -1,3 +1,23 @@
+/*
+Calculator for Bridge voltages given four resistance values
+
+     A
+   /   \
+  R1   R2
+ /       \
+ B        C
+  \      /
+   R3  R4
+     \ /
+      D
+
+5V on A
+0V on D
+voltage diff between B and C calculated
+      */
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
